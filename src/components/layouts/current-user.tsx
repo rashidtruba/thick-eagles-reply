@@ -12,7 +12,6 @@ import { AccountSettings } from "./account-settings";
 const CurrentUser = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { data: user } = useGetIdentity<User>();
-  console.log(user);
   const content = (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <Text strong style={{ padding: "12px 20px" }}>
