@@ -25,8 +25,6 @@ const KabanColumn = ({
     id,
     data,
   });
-  console.log(id);
-  console.log(title);
 
   const onAddClickHandler = () => {
     onAddClick?.({ id });

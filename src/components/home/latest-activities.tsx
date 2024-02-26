@@ -37,7 +37,6 @@ const DashboardLatestActivities = () => {
   });
 
   if (isError) {
-    console.log(error);
     return null;
   }
   const isLoading = isLoadingAudit || isLoadingDeals;

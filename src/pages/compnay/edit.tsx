@@ -21,7 +21,6 @@ const EditPage = () => {
       gqlMutation: UPDATE_COMPANY_MUTATION,
     },
   });
-  console.log(queryResult);
   const { selectProps, queryResult: queryResultUsers } = useSelect<
     GetFieldsFromList<UsersSelectQuery>
   >({
